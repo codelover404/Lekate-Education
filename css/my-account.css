@@ -1,0 +1,134 @@
+
+
+nav{
+    background-image: var(--nav-color); 
+    /* background:rgba(255, 255, 255, 0);   */
+}
+
+.my-account-page-heading{
+    padding-top: 150px;
+    padding-bottom: 50px;
+    background: rgb(243, 243, 243);
+}
+
+
+/* my-account-main-start */
+
+.my-account-main{
+    margin: 50px 0px;
+}
+
+.my-account-main-inner{
+    background-color: #ffffff;
+    border: 1px solid rgb(238, 238, 238);
+    border-radius: 5px;
+    box-shadow: 0px 10px 40px #e8e8e8;
+}
+
+
+
+/* my-account-main-end */
+
+
+
+/* my-account-about-mai-start */
+
+.my-account-about-main-for-pad{
+    padding: 0;
+}
+
+.my-account-about-main{
+    display: flex;
+    padding: 25px 50px;
+    background: var(--my-account-bg-color);
+}
+
+.my-account-about-main .my-account-image{
+    margin: 0px 20px 0px 0px;
+ }
+
+
+.my-account-about-main .my-account-image img{
+   width: 100px;
+   /* margin: 0px 20px 0px 0px; */
+   border-radius: 50px;
+}
+
+.my-account-about-main .my-account-about{
+    margin: 15px 0px 0px 0px;
+ }
+
+.my-account-about-main .my-account-about h1{
+    color: white;
+    font-size: 30px;
+    font-family: poppins;
+    font-weight: 600;
+}
+
+ .my-account-about-main .my-account-about p{
+    color: white;
+    font-size: 15px;
+    font-family: poppins;
+    /* font-weight: 600; */
+}
+
+
+   /* my-account-about-main-end */
+
+
+
+
+   /* my-account-sec2-start */
+
+
+
+.my-account-main-inner .my-account-sec2{
+    margin: 20px 0px;
+    padding: 10px 30px;
+}
+
+.my-account-main-inner .my-account-sec2 .myinput{
+    margin: 30px 0px;
+}
+
+.my-account-main-inner .my-account-sec2 input {
+    color: rgb(83, 83, 83);
+    font-weight: 500;
+    width: 100%;
+    /* margin: 10px 0px 0px 0px; */
+    padding: 10px 20px;
+    border: 1px solid rgba(92, 92, 123, 0.301);
+    border-radius: 30px;
+    outline: none;
+}
+
+.my-account-main-inner .my-account-sec2 
+.my-account-pass-hea {
+    margin: 45px 0px 0px 0px;
+}
+
+.my-account-main-inner .my-account-sec2 
+.my-account-pass-hea h1{
+    font-size: 20px ;
+    font-family: poppins;
+    font-weight: 600;
+}
+
+.my-account-main-inner .my-account-sec2
+.my-input-save-btn input{
+    width: 100%;
+    padding: 12px 0px;
+    color: white;
+    background: var(--secondary-btn-color);
+    border-radius: 30px;
+    border: none;
+    transition: .5s;
+}
+
+.my-account-main-inner .my-account-sec2
+.my-input-save-btn input:hover{
+    background: var(--primary-btn-color);
+}
+
+
+    /* my-account-sec2-end */

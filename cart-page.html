@@ -1,0 +1,709 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" href="images/L.png" sizes="any" type="image/png">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.6.5/dist/css/uikit.min.css" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.0.0/mdb.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <link rel="stylesheet" href="css/owl.carousel.min.css">
+  <link rel="stylesheet" href="css/owl.theme.default.min.css">
+  <link href="https://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="css/carousel-style.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/cart-page.css">
+  <link rel="stylesheet" href="css/responsive-css/mobile.css">
+
+
+
+  <title>Lekate</title>
+</head>
+
+<body>
+
+
+
+  <!-- navbar-start -->
+
+  <div class="container-fluid">
+    <div class="row">
+      <nav>
+        <div class="navbar-custom">
+          <ul class="nav-ul">
+            <li class="logo"><a href="index.html"><img src="images/logo2.png" alt=""></a></li>
+            <li class="items"><a class="uk-button-text" aria-current="page" href="#">Home</a> </li>
+            <li class="items course-li">
+              <a class="uk-button-text" href="#">Courses<i class="fas fa-chevron-down"></i></a>
+              <ul class="course-dropdown-ul">
+                <li><a href="courses-page.html">Software Development</a></li>
+                <li><a href="courses-page.html">Website Development</a></li>
+                <li><a href="courses-page.html">AI & Machine Learning</a></li>
+                <li><a href="courses-page.html">Ethical Hacking</a></li>
+              </ul>
+            </li>
+            <li class="items"><a class="uk-button-text" href="our-team.html">Our Team</a> </li>
+            <li class="items"><a class="uk-button-text" href="about-page.html">About</a> </li>
+            <li class="items"><a class="uk-button-text" href="contact-page.html">Contact</a> </li>
+            <li class="items search-bar-nav-li">
+              <div class="search-bar-nav1">
+                <span class="search-bar-nav1-icon lpiic-1" uk-icon="search"></span>
+                <input type="email" placeholder="What you want to learn ">
+              </div>
+            </li>
+            <li class="items nav-cart-icon-li" data-bs-toggle="modal" data-bs-target="#exampleModal">
+              <img src="images/cart-icons/insurance (2).png" alt="">
+            </li>
+            <li class="items user-pic-div-li">
+              <div class="loader"></div>
+              <img class="user-pic" src="images/user-pic.jpg" alt="">
+            </li>
+            <div class="user-account-main">
+              <ul>
+                <li class="user-and-email"><a class="user-name" href="my-account.html">John Doe</a>
+                  <a class="user-email" href="my-account.html">doejohn@gmail.com</a>
+                </li>
+                <li><a href="my-courses-page.html"><img src="images/user-account/presentation.png">My
+                    courses</a></li>
+                <li><a href="my-account.html"><img src="images/user-account/google.png">Account</a></li>
+                <li><a href="signup-page.html"><img src="images/user-account/follow.png">Create another
+                    account</a></li>
+                <li><a href="#"><img src="images/user-account/arrow.png">Logout</a></li>
+              </ul>
+            </div>
+            <li class="menu-btn"><img class="menu-icon" src="images/download.png" alt=""></a></li>
+          </ul>
+
+        </div>
+      </nav>
+
+    </div>
+  </div>
+
+
+
+  <!------- navbar-end -------->
+
+
+
+<!-- Modal checkout-start -->
+
+
+<div class="checkout-modal">
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header first-modal-border">
+          <h5 class="modal-title" id="exampleModalLabel">Your Cart</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="col-md-12 modal-inner-for-pad">
+            <div class="checkout-modal-items-main">
+              <div class="col-md-12">
+                <div class="checkout-modal-item">
+                  <div class="checkout-modal-item-img">
+                    <img src="images/more-course/CVz5X5tVEAA0lIU.png" alt="">
+                  </div>
+                  <div class="checkout-modal-item-content">
+                    <a href="course-enroll-page.html">
+                      <h1 class="checkout-modal-item-h1">Website Development</h1>
+                    </a>
+                    </a>
+                    <p class="checkout-modal-item-p1">3.85$</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-12">
+                <div class="checkout-modal-item">
+                  <div class="checkout-modal-item-img">
+                    <img
+                      src="images/more-course/ai-artificial-intelligence-logo-hands-artificial-intelligence-machine-learning-concept-sphere-grid-wave-with-binary-code_127544-18.jpg"
+                      alt="">
+                  </div>
+                  <div class="checkout-modal-item-content">
+                    <a href="course-enroll-page.html">
+                      <h1 class="checkout-modal-item-h1">AI & Machine Learning</h1>
+                    </a>
+                    <p class="checkout-modal-item-p1">7.68$</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer chekout-modal-btn">
+          <div class="chekout-modal-total col-md-12">
+            <h1 class="chekout-modal-h1">Total</h1>
+            <h1 class="chekout-modal-price">30$</h1>
+          </div>
+          <a href="cart-page.html">
+            <button type="button">Checkout</button>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- Modal checkout-end -->
+
+
+
+
+  <!------- cart-heading-start ----->
+
+
+  <div class="container-fluid cart-page-heading-sec">
+    <div class="cart-page-outer">
+      <div class="container">
+        <div class="cart-page-inner">
+          <div class="col-md-8 d-flex offset-md-2 justify-content-center text-center">
+            <div class="cart-page-content justify-content-center text-center">
+              <h1 class="sub-h1">Cart</h1>
+              <p class="sub-p1 col-md-12 mt-4 mb-0">Home / Cart</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <!------- Cart-heading-end ----->
+
+
+
+
+
+
+  <!------------------ Cart-all-main-start ------------------>
+
+
+  <div class="cart-main-all">
+    <div class="container">
+      <div class="cart-main-all-inner">
+        <div class="row">
+
+          <!-- cart-left -->
+
+          <div class="col-md-8">
+            <div class="cart-left-inner">
+
+              <div class="col-md-12">
+                <div class="cart-quantity-main">
+                  <h1 class="cart-quantity-h1">2 Course in Cart</h1>
+                </div>
+              </div>
+
+              <div class="col-md-12">
+                <div class="cart-course-main">
+                  <div class="cart-course-image col-md-1">
+                    <img src="images/more-course/CVz5X5tVEAA0lIU.png" alt="">
+                  </div>
+                  <div class="cart-course-content col-md-11">
+                    <h1 class="cart-course-content-h1 col-md-6">Web Development</h1>
+                    <a href="#">
+                      <p class="cart-course-remove-h1 col-md-3">Remove</p>
+                    </a>
+                    <p class="cart-course-content-h2 col-md-3">3.85$</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-12">
+                <div class="cart-course-main">
+                  <div class="cart-course-image col-md-1">
+                    <img
+                      src="images/more-course/ai-artificial-intelligence-logo-hands-artificial-intelligence-machine-learning-concept-sphere-grid-wave-with-binary-code_127544-18.jpg"
+                      alt="">
+                  </div>
+                  <div class="cart-course-content col-md-11">
+                    <h1 class="cart-course-content-h1 col-md-6">AI & Machine Learning</h1>
+                    <a href="#">
+                      <p class="cart-course-remove-h1 col-md-3">Remove</p>
+                    </a>
+                    <p class="cart-course-content-h2 col-md-3">7.68$</p>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+          <!-- cart-right -->
+
+          <div class="col-md-4">
+            <div class="cart-right-inner">
+
+              <div class="col-md-12">
+                <div class="cart-total-price">
+                  <h1 class="cart-total-price-h1">Total:</h1>
+                  <h1 class="cart-total-price-h2">11.53$</h1>
+                </div>
+              </div>
+
+              <div class="col-md-12">
+                <div class="cart-right-checkout-sec">
+                  <a href="checkout-page.html">
+                    <button class="cart-right-checkout-btn">Process to Checkout</button>
+                  </a>
+                </div>
+              </div>
+
+              <div class="col-md-12">
+                <div class="cart-right-coupon">
+                  <input type="text" placeholder="Enter coupon">
+                  <a href="checkout-page.html">
+                    <button type="button">Apply coupon</button>
+                  </a>
+                </div>
+              </div>
+
+
+
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+  </div>
+
+
+
+
+
+  <!------------------- Cart-all-main-end ------------------>
+
+
+
+
+
+
+  <!----------- newsletter-start ---------->
+
+
+  <div class="main-newsletter">
+    <div class="container-fluid">
+      <div class="newsletter-outer">
+        <div class="container">
+          <div class="news-letter-inner">
+            <div class="row d-flex align-items-center">
+              <div class="col-md-6">
+                <div class="news-letter-right">
+                  <p class="news-p1">#Newsletter</p>
+                  <h1 class="news-h1">Join our community of students</h1>
+                </div>
+              </div>
+
+              <div class="col-md-6 ">
+                <div class="news-letter-left">
+                  <div class="input-group newsletter-sec mb-3">
+                    <input type="email" class="form-control" placeholder="Enter your email"
+                      aria-label="Recipient's username" aria-describedby="button-addon2">
+                    <button class="btn btn-outline-secondary" type="button" id="button-addon2">Subscribe
+                      <i class="fas fa-envelope"></i>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!----------- newsletter-end ---------->
+
+
+
+
+  <!----------- last-sec-start ---------->
+
+
+  <div class="last-sec-main">
+    <div class="container-fluid">
+      <div class="last-sec-outer">
+        <div class="container">
+          <div class="last-sec-inner">
+            <div class="row">
+              <div class="col-md-3">
+                <div class="last-sec last-sec-1">
+                  <div class="last-logo">
+                    <img src="images/logo2.png" style="width: 150px;">
+                  </div>
+                  <p class="last-p1">It's crafted with the latest tre to of design & coded with all modern
+                    approaches.
+                  </p>
+                  <div class="follow-sec">
+                    <h6 class="follow-h">
+                      Follow on
+                    </h6>
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-3">
+                <div class="last-sec last-sec-2">
+                  <h1 class="last-h1">Courses</h1>
+                  <ul>
+                    <li class="uk-button-text"><a href="#">All</a></li>
+                    <li class="uk-button-text"><a href="#">Software Development</a></li>
+                    <li><a href="#">Website Development</a></li>
+                    <li><a href="#">Website Designing</a></li>
+                    <li><a href="#">AI & Machine learning</a></li>
+                    <li><a href="#">Ethical Hacking</a></li>
+                  </ul>
+                </div>
+              </div>
+
+              <div class="col-md-3">
+                <div class="last-sec last-sec-3">
+                  <h1 class="last-h1">Company</h1>
+                  <ul>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Careers</a></li>
+                    <li><a href="#">Resources</a></li>
+                    <li><a href="#">Guides</a></li>
+                  </ul>
+                </div>
+              </div>
+
+              <div class="col-md-3">
+                <div class="last-sec last-sec-4">
+                  <h1 class="last-h1">Support</h1>
+                  <ul>
+                    <li><a href="#">Help Center</a></li>
+                    <li><a href="#">Contact Support</a></li>
+                    <li><a href="#">Feedback</a></li>
+                    <li><a href="#">Community and Forums</a></li>
+                    <li><a href="#">Terms and Conditions</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div class="row copyright">
+              <div class="col-md-4">
+                <div>
+                  <p class="copyright-p">
+                    All rights reserved by <a href="#">Our Designs</a>
+                  </p>
+                </div>
+              </div>
+
+              <div class="col-md-6 offset-md-2 d-flex">
+                <div class="copyright-links">
+                  <ul>
+                    <li><a href="#">Contact Support</a></li>
+                    <li><a href="#">Terms and Conditions</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <!-- scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.0.0/mdb.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/uikit@3.6.5/dist/js/uikit.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/uikit@3.6.5/dist/js/uikit-icons.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.js"></script>
+  <script src="js/carousel.js"></script>
+  <script src="js/testinomial-script-1.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+
+  <script>
+    $(document).ready(function () {
+      var owl = $('.owl-carousel');
+      owl.owlCarousel({
+        items: 1,
+        loop: true,
+        margin: 0,
+        autoplay: true,
+        autoplayTimeout: 6000,
+        autoplayHoverPause: false
+      });
+      $('.play').on('click', function () {
+        owl.trigger('play.owl.autoplay', [1000])
+      })
+      $('.stop').on('click', function () {
+        owl.trigger('stop.owl.autoplay')
+      })
+    })
+  </script>
+
+
+  <script>
+    $(document).ready(function () {
+
+      $('.counter').each(function () {
+        $(this).prop('Counter', 0).animate({
+          Counter: $(this).text()
+        }, {
+          duration: 4000,
+          easing: 'swing',
+          step: function (now) {
+            $(this).text(Math.ceil(now));
+          }
+        });
+      });
+
+    });
+  </script>
+
+
+
+  <script src="js/wow.min.js"></script>
+  <script>
+    new WOW().init();
+
+    wow = new WOW(
+      {
+        boxClass: 'wow',      // default
+        animateClass: 'animated', // default
+        offset: 0,          // default
+        mobile: true,       // default
+        live: true        // default
+      }
+    )
+    wow.init();
+  </script>
+
+
+  <script>
+    $(document).ready(function () {
+      $(".contact-form .one input").focusin(function () {
+        $(".contact-form .one div h5").animate({
+          top: '-5px',
+          fontSize: '12px',
+        });
+
+        $(".contact-form .one .i i").css('color', '#0e49b5');
+        $(".contact-form .one").css('border-bottom', '2px solid #0e49b5');
+      });
+
+
+
+      $(".contact-form .one div input").focusout(function () {
+        $(".contact-form .one div h5").animate({
+          top: '50%',
+          fontSize: '18px',
+        });
+
+        $(".contact-form .one .i i").css('color', '#495cda');
+        $(".contact-form .one").css('border-bottom', '2px solid #5c5c7b1e');
+      });
+    });
+  </script>
+
+
+
+
+
+  <script>
+    $(document).ready(function () {
+      $(".login-page-inner .login-page-input1 input").focusin(function () {
+        $(".login-page-inner .login-page-input1 .lpiic-1").css('color', '#000dff');
+      });
+
+
+
+      $(".login-page-inner .login-page-input1 input").focusout(function () {
+        $(".login-page-inner .login-page-input1 .lpiic-1").css('color', '#7B7B95');
+      });
+
+
+
+
+      $(".login-page-inner .login-page-input2 input").focusin(function () {
+        $(".login-page-inner .login-page-input2 .lpiic-2").css('color', '#000dff');
+      });
+
+
+
+      $(".login-page-inner .login-page-input2 input").focusout(function () {
+        $(".login-page-inner .login-page-input2 .lpiic-2").css('color', '#7B7B95');
+      });
+    });
+  </script>
+
+
+
+
+  <script>
+    $(document).ready(function () {
+      $(".contact-form .three textarea").focusin(function () {
+        $(".contact-form .three h5").animate({
+          top: '-15px',
+          fontSize: '12px',
+        });
+
+        $(".contact-form .three .i i").css('color', '#0e49b5');
+        $(".contact-form .three ").css('border-bottom', '2px solid #0e49b5');
+      });
+
+
+
+      $(".contact-form .three textarea").focusout(function () {
+        $(".contact-form .three h5").animate({
+          top: '12px',
+          fontSize: '18px',
+        });
+
+        $(".contact-form .three .i i").css('color', '#495cda');
+        $(".contact-form .three").css('border-bottom', '2px solid #5c5c7b1e');
+      });
+    });
+  </script>
+
+
+
+  <!-- Change Nav background on Click -->
+
+  <script>
+    $(document).ready(function () {
+      $(".navbar-custom .nav-ul li.menu-btn").click(function () {
+        $("nav").toggleClass("toggle-nav");
+      });
+    });
+  </script>
+
+
+
+
+
+
+  <!-- Change Nav background on Scroll -->
+
+  <!-- <script>
+    $(document).ready(function () {
+      $(window).scroll(function () {
+        var scroll = $(window).scrollTop();
+        if (scroll > 100) {
+          $("nav").css("background-image", "linear-gradient(to right, #000dff  0%, #4c11cb  100%)");
+        }
+
+        else {
+          $("nav").css("background", "rgba(255, 255, 255, 0)");
+        }
+      })
+    })
+  </script> -->
+
+
+
+
+  <!-- navbar-custom .items show/hide -->
+
+  <script>
+    $(document).ready(function () {
+      $('.menu-btn').click(function () {
+        $('.items').toggleClass("show");
+      });
+    });
+  </script>
+
+
+
+  <!-- course-li-dropdown-click -->
+
+  <script>
+    $(document).ready(function () {
+      $(".navbar-custom .nav-ul .course-li").click(function () {
+        $(".navbar-custom .nav-ul .course-li .course-dropdown-ul").fadeToggle();
+      });
+    });
+  </script>
+
+
+  <!-- user-account-main -->
+
+  <script>
+    $(document).ready(function () {
+      $(".navbar-custom .user-pic-div-li").click(function () {
+        $(".navbar-custom .user-account-main").fadeToggle();
+      });
+    });
+</script>
+
+
+</body>
+
+</html>

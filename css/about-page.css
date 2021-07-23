@@ -1,0 +1,172 @@
+
+
+nav{
+    background-image: var(--nav-color); 
+    /* background:rgba(255, 255, 255, 0);   */
+}
+
+
+/*--- .about-page-heading-sec-start ---*/
+
+
+.about-page-heading-sec{
+    padding-top: 200px;
+    padding-bottom: 100px;
+    background: rgb(243, 243, 243);
+}
+
+
+/*--- .about-page-heading-sec-end ---*/
+
+
+
+/*--- .aboutpage-section-2-start ---*/
+
+
+.aboutpage-main{
+    padding-top: 150px;
+    background-color: rgb(255, 255, 255);
+}
+
+.aboutpage-outer .aboutpage-rightimage img{
+    width: 500px;
+    box-shadow: 0px 16px 40px #adadad;
+    border-radius: 5px;
+    /* margin-top: -96px; */
+}
+
+
+/*--- .aboutpage-section-2-end ---*/
+
+
+
+/*--- .aboutpage-section-3-start ---*/
+
+
+.aboutpage-sec3-main{
+    margin-top: 130px;
+    margin-bottom: 150px;
+}
+
+.aboutpage-sec3-main .row{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.aboutpage-sec3-h1{
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.aboutpage-sec3-p1{
+    color: rgb(47, 47, 47);
+    margin-left: 20px;
+}
+
+.aboutpage-sec3-p2{
+    color: rgb(106, 106, 106);
+}
+
+.abpage-sec3-fea-inner:hover .aboutpage-sec3-p2{
+    color: rgb(255, 255, 255);
+}
+
+
+.aboutpage-sec3-sec2{
+    border-left: 1px solid rgba(45, 45, 45, 0.293);
+}
+
+
+
+
+.aboutpage-sec3-fea-mt{
+    margin-top: 120px;
+}
+
+.aboutpage-sec3-fea-mtt{
+    margin-top: 30px;
+}
+
+.abpage-sec3-fea-inner{
+    /* background-color: rgb(246, 246, 246); */
+    padding: 30px 40px 15px 40px;
+    box-shadow: 0px 11px 35px -9px #9696969e;
+    transition: .5s;
+}
+
+.abpage-sec3-fea-inner:hover{
+    background: var(--bg-hover-color);
+    box-shadow: 0px 11px 35px -9px #96969650;
+    color: white;
+}
+
+.abpage-sec3-fea-inner:hover h1{
+    color: white;
+}
+
+.aboutpage-sec3-fea img{
+    /* width: 80px; */
+    margin-bottom: 20px;
+}
+
+.aboutpage-sec3-fea h1{
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.aboutpage-sec3-fea p{
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+
+
+
+/*--- .aboutpage-section-3-end ---*/
+
+
+
+
+
+
+/*--- .aboutpage-section-4-start ---*/
+
+
+
+.ab-sec4-video{
+    margin-top: 40px;
+}
+
+
+
+/*--- .aboutpage-section-4-end ---*/
+
+
+
+
+
+/*--- .aboutpage-section5-start ---*/
+
+
+.aboutpage-sec5-main{
+    margin-top: 150px;
+}
+
+.clients-row{
+     margin-top: 30px;
+}
+
+#owl-demo .item{
+    display: block;
+    width: 90%;
+    height: 100px;
+    background-position: center center;
+    background-size:auto;
+    background-repeat: no-repeat;
+}
+
+
+
+
+/*--- .aboutpage-section5-end ---*/

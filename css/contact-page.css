@@ -1,0 +1,260 @@
+
+nav{
+    background-image: var(--nav-color); 
+    /* background:rgba(255, 255, 255, 0);   */
+}
+
+
+/*--- .contact-page-heading-sec-start ---*/
+
+
+.contact-page-heading-sec{
+    padding-top: 200px;
+    padding-bottom: 100px;
+    background: rgb(243, 243, 243);
+}
+
+
+/*--- .contact-page-heading-sec-end ---*/
+
+
+
+
+
+
+/*--- contactpage-sec2-start ---*/
+
+
+.contactpage-sec2-main{
+    margin-top: 130px;
+    margin-bottom: 100px;
+}
+
+.contactpage-sec2-main .row{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.contactpage-sec2-h1{
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.contactpage-sec2-p1{
+    color: rgb(47, 47, 47);
+    margin-left: 20px;
+}
+
+.contactpage-sec2-sec2{
+    border-left: 1px solid rgba(45, 45, 45, 0.293);
+}
+
+
+
+/*--- .aboutpage-section-2-end ---*/
+
+
+
+
+
+
+
+/*--- contactpage-sec3-start ---*/
+
+.contact-info-sec{
+    background: #f5f5f5;
+    border-radius: 5px;
+    box-shadow: 0px 20px 40px rgb(226, 226, 226);
+    height: 110px;
+    align-items: center;
+}
+
+.contactpage-sec3-main .contact-info-sec{
+    display: flex;
+    padding: 20px 30px ;
+}
+
+.contactpage-sec3-main .contact-info-sec i{
+    display: block;
+    margin-right: 5px;
+
+}
+
+.contactpage-sec3-main .contact-info-sec i::before{
+    border-radius: 50px;
+    border: 4px solid rgb(255, 255, 255);
+    padding: 8px;
+}
+
+.contactpage-sec3-main .contact-i{
+    padding: 0;
+}
+
+
+.contactpage-sec3-main .contac-info-p1{
+    font-size: 16px;
+    margin-bottom: 2px;
+}
+
+.contactpage-sec3-main .contac-info-h1{
+    font-size: 18px;
+}
+
+.contactpage-sec3-main i{
+    font-size: 25px;
+}
+
+
+/*--- contactpage-sec3-end ---*/
+
+
+
+
+
+/*--- contactpage-sec4-left-start ---*/
+
+
+.contactpage-sec4-main {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.contact-left img{
+    width: 500px;
+}
+
+
+/*--- contactpage-sec4-left-end ---*/
+
+
+
+/*--- contactpage-sec4-right-start ---*/
+
+.contact-right-outer{
+    /* background: gray; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-right-inner{
+    background: #f8f8f8;
+    box-shadow: 0px 15px 40px #d6d6d6;
+    /* background-image: linear-gradient(-25deg, #e0e0e0 0%, #b1d3fd 100%); */
+    padding: 40px 30px;
+}
+
+.contact-right-inner .contact-right-h1 h1{
+    font-size: 28px;
+    color: #5c5c7b;
+    letter-spacing: -0.4px;
+    margin-bottom: 40px;
+}
+
+
+
+
+
+.contact-right-inner .input-div {
+    display: grid;
+    grid-template-columns: 7% 93%;
+    margin: 25px 0;
+    padding: 5px 0;
+    border-bottom: 2px solid #5c5c7b1e;
+}
+
+contact-right-inner .input-div .i {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.input-div>.i>i{
+    color: #495cda;
+}
+
+.contact-right-inner .input-div div {
+    position: relative;
+}
+
+.contact-right-inner .input-div div input:focus .input-div div h5 {
+    /* position: absolute; */
+    top: 15%;
+    color: purple;
+    font-size: 20px;
+}
+
+.contact-right-inner .input-div>div h5 {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 17px;
+    color: #5c5c7bac;
+    /* display: none; */
+}
+
+.contact-right-inner .input-div input {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    padding: 0.5rem 0.7rem;
+    font-size: 15px;
+    color: rgb(40, 40, 40);
+    border: none;
+    outline: none;
+    background: none;
+}
+
+.contact-right-inner .three textarea{
+    border: none;
+    outline: none;
+}
+
+.contact-right-inner .input-div div .textarea-h5{
+    top: 12px;
+}
+
+.contact-right-inner textarea{
+    background-color: transparent;
+    border: none;
+}
+
+.contact-right-inner .submit-btn{
+    position: relative;
+}
+
+.contact-right-inner .submit-btn input{
+    color: white;
+    background: var(--secondary-btn-color);
+    border: none;
+    width: 100%;
+    padding: 12px 0px;
+    transition: .3s;
+    border-radius: 50px;
+
+}
+
+.contact-right-inner .submit-btn input:hover{
+    color: white;
+    background: var(--primary-btn-color);
+    border: none;
+    width: 100%;
+}
+
+
+.contact-right-inner .submit-btn span{
+    color: white;
+    position: absolute;
+    z-index: 9;
+    /* top: 14px;
+    right: 92px; */
+    transform: translate(50px ,50px);
+}
+
+
+
+/*--- contactpage-sec4-right-end ---*/

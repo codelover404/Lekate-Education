@@ -1,0 +1,635 @@
+
+*{
+    font-family: poppins;
+}
+
+nav{
+    background-image: var(--nav-color); 
+    /* background:rgba(255, 255, 255, 0);   */
+}
+
+
+
+/*--- .course-enroll-page-heading-sec-start ---*/
+
+
+.course-enroll-page-heading-sec{
+    padding-top: 200px;
+    padding-bottom: 100px;
+    background: rgb(249, 249, 249);
+}
+
+
+/*--- .course-enroll-page-heading-sec-end ---*/
+
+
+
+
+
+/*---- COURSE-ENROLL-MAIN-ALL-START ----*/
+
+
+/*--- course-intro ---*/
+
+
+.main-all{
+    margin-top: 100px;
+    
+}
+
+.course-spec-main{
+    background-color: #ffffff;
+    border: 1px solid rgb(238, 238, 238);
+    border-radius:5px ;
+    box-shadow: 0px 10px 40px #e8e8e8;
+}
+
+.highlight-video{
+    margin-top: 10px;
+    text-align: center;
+}
+
+.highlight-video iframe{
+    border-radius: 5px;
+}
+
+.course-intro-outer{
+    margin-top: 40px;
+}
+
+.course-intro-sec .course-intro{
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid rgb(233, 233, 233);
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.course-intro-sec .course-intro img{
+    color: blue;
+    /* margin-top: 2px; */
+    /* background-image: linear-gradient(-225deg, #AC32E4 0%, #7918F2 48%, #4801FF 100%); */
+    z-index: 9;
+    filter: drop-shadow(0px 0px  rgb(25, 86, 206));
+    width: 18px;
+    fill: #000dff;
+}
+
+.cou-intro-icon{
+    padding: 0;
+}
+
+.course-intro p{
+    margin-bottom: 0px;
+    font-size: 13px;
+}
+
+.course-intro-p1{
+    /* margin-left: 10px; */
+}
+
+.course-intro-p2{
+    justify-items: end;
+    padding: 0;
+}
+
+.couenroll-price-purchse{
+    display: flex;
+}
+
+.couenroll-purchase, .couenroll-price{
+    margin: 20px 0px;
+}
+
+.couenroll-price .enroll-cou-price h1{
+    font-size: 18px;
+    font-weight: 600;
+    font-family: poppins;
+}
+
+.course-spec-main .enroll-cou-purchase a{
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+    padding: 8px 15px;
+    border-radius: 50px;
+    transition: .3s;
+    background: var(--secondary-btn-color);
+}
+
+
+.course-spec-main .enroll-cou-purchase a:hover{
+    color: rgb(255, 255, 255);
+    background: var(--primary-btn-color);
+}
+
+
+
+/*--- more-course-section ---*/
+
+
+.more-course-main-outer{
+    margin-top: 30px;   
+}
+
+.more-course-main-inner{
+
+    background-color: #ffffff;
+    border: 1px solid rgb(238, 238, 238);
+    border-radius:5px ;
+    box-shadow: 0px 10px 40px #e8e8e8;
+}
+
+.more-course-main-inner{
+    padding: 40px 16px;
+}
+
+.more-course-main-inner .more-course-h1{
+    font-size: 18px;
+    font-family: poppins;
+}
+
+.main-course-inner {
+    display: flex;
+    justify-content: center;
+    padding: 20px 5px 0px 0px;
+    border-bottom: 1px solid rgb(233, 233, 233);
+}
+
+.more-course-content{
+    margin-top: 3px;
+    padding: 0;
+}
+
+.main-course-inner .more-course-price{
+    display: flex;
+    align-items: center;
+    padding: 0;
+}
+
+.main-course-inner .more-course-price .more-course-p1{
+    font-size: 13px;
+}
+
+.main-course-inner .more-course-price .more-course-p2{
+    margin-left: 7px;
+    font-size: 15px;
+}
+
+.more-course-image{
+    padding: 0;
+}
+
+.main-course-inner img{
+    border-radius: 121px;
+    width: 50px;
+    height: 50px;
+}
+
+.main-course-inner .more-course-h2{
+    font-size: 15px;
+    font-family: poppins;
+}
+
+
+.more-course-main-outer{
+    margin-top: 30px;   
+}
+
+
+
+/* cou-enroll-write-rev */
+
+.enroll-write-rev-outer{
+    margin-top: 30px;   
+}
+
+.enroll-write-rev-inner{
+
+    background-color: #ffffff;
+    border: 1px solid rgb(238, 238, 238);
+    border-radius:5px ;
+    box-shadow: 0px 10px 40px #e8e8e8;
+}
+
+.enroll-write-rev-inner{
+    padding: 40px 16px;
+}
+
+.enroll-write-rev-inner
+.cou-en-write-rev-h1{
+    font-size: 18px;
+    font-family: poppins;
+}
+
+.enroll-write-rev-inner
+.write-rev-box{
+    margin-top: 20px;
+}
+
+.write-rev-input1,.write-rev-input2{
+    padding: 8px 10px;
+    margin-top: 10px;
+    /* border-radius: 5px; */
+    border: 2px solid #f0f0f0;
+    width: 100%;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+}
+
+.write-rev-box input::placeholder{
+    font-size: 15px;
+    color: #5c5c7bac;
+    padding-left: 10px;
+}
+
+.write-rev-box textarea::placeholder{
+    color: #5c5c7bac;
+    padding-left: 10px;
+    font-size: 15px;
+}
+
+.write-rev-box
+.enroll-write-review-static-stars{
+    display: flex;
+    align-items: center;
+}
+
+.write-rev-box
+.enroll-write-review-static-stars i{
+    padding: 0px 2px;
+}
+
+.write-rev-box
+.enroll-write-review-static-stars
+.couenroll-write-rev-star-p1{
+    margin: 2px 0px 0px 10px;
+}
+
+
+.write-rev-box .write-rev-input3{
+    font-size: 15px;
+    font-weight: 500;
+    font-family: poppins;
+    color: white;
+    background: var(--secondary-btn-color);
+    margin-top: 15px;
+    padding: 12px 0px;
+    border: none;
+    border-radius: 50px;
+    width: 100%;
+    transition: .3s;
+}
+
+.write-rev-box .write-rev-input3:hover{
+    color: white;
+    background: var(--primary-btn-color);
+}
+    
+
+
+/* ENROLL-RIGHT-SEC */
+
+
+/* right-first-sec-eroll */
+
+.course-enroll-right-outer{
+    background-color: #ffffff;
+    border: 1px solid rgb(238, 238, 238);
+    border-radius:5px ;
+    box-shadow: 0px 10px 40px #e8e8e8;
+    display: grid;
+}
+
+.enroll-right-first-sec{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.enroll-right-first-sec .enroll-category-h1{
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.enroll-right-first-sec .enroll-category-h2{
+    font-size: 17px;
+}
+
+
+
+/* right-second-sec-enroll */
+
+
+
+.couenroll-right-second-sec{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px 0px;
+}
+
+/* .couenroll-right-second-sec .col-3{
+    padding: 0;
+} */
+
+.enroll-cou-static-stars, .couenroll-students, .couenroll-lan{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 15px;
+}
+
+.couenroll-right-second-sec i{
+    font-size: 12px;
+    padding: 0 10px;
+}
+
+.couenroll-right-second-sec p{
+    font-size: 12px;
+    margin: 0;
+}
+
+.couenroll-right-second-sec .enroll-cou-static-stars i{
+    color: rgb(255, 133, 51);
+    padding: 0 2px;
+}
+
+.couenroll-right-second-sec .enroll-cou-static-stars p{
+    margin-left: 8px;
+}
+
+.couenroll-right-second-sec .enroll-cou-static-stars{
+    margin-left: 0;
+}
+
+
+/* right-third-sec-enroll */
+
+
+.couenroll-right-third-sec{
+    margin: 0px 0px 25px 0px;
+}
+
+
+
+/*---- right-fourth-sec-enroll ----*/
+
+
+.couenroll-right-fourth-sec .uk-subnav{
+    background: #f0f0f0;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.couenroll-right-fourth-sec .uk-subnav li a{
+    font-size: 15px;
+    font-weight: 500;
+    text-transform: capitalize;
+    font-family: poppins;
+}
+
+.couenroll-right-fourth-sec .uk-subnav-pill>.uk-active>a {
+    background-color: #404040;
+    /* background-image: linear-gradient(to right, rgb(0, 13, 255) 0%, rgb(76, 17, 203) 100%); */
+    color: #fff;
+    border-radius: 3px;
+}
+
+
+/* enroll-overview-first-sec */
+
+.enroll-overview-forpad{
+    padding: 0;
+}
+
+.enroll-overview-first-sec{
+    margin-top: 40px;
+}
+
+.couenroll-right-fourth-sec 
+.enroll-overview-first-sec
+.enroll-overview-h1{
+    font-family: poppins;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 15px;
+} 
+
+.couenroll-right-fourth-sec 
+.enroll-overview-first-sec
+.enroll-overview-p1{
+    font-family: poppins;
+    font-size: 15px;
+    line-height: 26px;
+    color: #6a6a6a;
+}
+
+/* enroll-overview-second-sec */
+
+.enroll-overview-point-main{
+    margin-top: 20px;
+    display: flex;
+}
+
+.enroll-overview-point-main-1{
+    margin-top: 40px;
+}
+
+.enroll-overview-second-sec
+.enroll-overview-point-icons{
+    margin: 5px 20px 0px 0px ;
+    vertical-align: middle;
+}
+
+.enroll-overview-second-sec
+.enroll-overview-point-icons
+img{
+    width: 5px;
+    height: 70px;
+    margin-left: 5px;
+}
+
+.enroll-overview-second-sec
+.enroll-overview-point-icons i,
+.enroll-overview-second-sec
+.enroll-overview-point-icons img{
+    display: block;
+}
+
+.enroll-overview-second-sec
+.enroll-overview-point-icons{
+    color: #0073ff;
+}
+
+.enroll-overview-second-sec
+.enroll-overview-point-icons img{
+    color: rgba(189, 189, 189, 0.129);
+    opacity: .1;
+}
+
+.enroll-overview-point-main
+.enroll-overview-point-h1{
+    font-size: 18px;
+    font-family: poppins;
+    font-weight: 600;
+}
+
+.enroll-overview-point-main
+.enroll-overview-point-p1{
+    font-size: 15px;
+    font-family: poppins;
+    line-height: 26px;
+    color: #6a6a6a;
+}
+
+
+
+/* uknav-second-switch */
+
+/*--- enroll-curiculam ----*/
+
+
+.enroll-curiculam-forpad{
+    padding: 0;
+}
+
+
+.enroll-curiculam-first-sec ul li a{
+    font-size: 18px;
+    font-family: poppins;
+    font-weight: 600;
+}
+
+
+.enroll-curiculam-first-sec ul li p{
+    font-size: 15px;
+    font-family: poppins;
+    line-height: 26px;
+    color: #6a6a6a;
+}
+
+
+
+
+
+  /*---- uknav-third-switch ---*/
+
+  /* enroll-review-first-sec */
+
+  .enroll-review-forpad{
+      padding: 0;
+  }
+
+.enroll-review-first-sec{
+    display: flex;
+    margin: 35px 0px;
+}
+
+.enroll-review-first-sec .enroll-review-h1{
+    font-size: 15px;
+    font-family: poppins;
+    font-weight: 600;
+}
+
+.enroll-review-first-sec i{
+    margin-top: 2px;
+    margin-left: 10px;
+}
+
+
+
+/* enroll-review-second-sec */
+
+
+
+.enroll-review-second-sec{
+    margin-top: 60px;
+}
+
+.enroll-review-second-sec-1{
+    margin-top: 0px;
+}
+
+
+.enroll-review-second-sec 
+.enroll-review-static-stars i{
+    font-size: 12px;
+    color: rgb(255, 133, 51);
+    padding: 0 2px;
+}
+
+.enroll-review-second-sec 
+.enroll-review-static-stars 
+.couenroll-rev-star-p1{
+    margin-left: 8px;
+    margin-bottom: 0;
+    font-size: 12px;
+}
+
+
+.enroll-review-second-sec 
+.enroll-review-static-stars{
+    margin-left: 0;
+    margin-bottom: 10px;
+    align-items: center;
+}
+
+
+.enroll-review-main-all
+.enroll-review-second-sec img{
+    width: 45px;
+    height: 45px;
+}
+
+.enroll-review-main-all
+.enroll-review-second-sec
+.enroll-rev-user{
+    margin-left: 15px;
+}
+
+.enroll-review-main-all
+.enroll-review-second-sec
+.enroll-review-image
+{
+    display: flex;
+}
+
+.enroll-review-main-all
+.enroll-review-second-sec
+.enroll-review-static-stars
+{
+    display: flex;
+    align-items: ;
+}
+
+.enroll-review-main-all
+.enroll-review-second-sec
+.enroll-review-h2
+{
+    font-size: 17px;
+    font-weight: 500;
+    font-family: poppins;
+}
+
+.enroll-review-main-all
+.enroll-review-second-sec
+.enroll-review-p1
+{
+    font-size: 12px;
+}
+
+.enroll-review-second-sec 
+.enroll-review-h1{
+    font-size: 19px;
+    font-family: poppins;
+    font-weight: 600;
+    margin-right: 10px;
+}
+
+.enroll-review-second-sec 
+.enroll-review-p2{
+    font-size: 15px;
+}
+

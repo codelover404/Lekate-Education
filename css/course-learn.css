@@ -1,0 +1,432 @@
+
+*{
+    font-family: poppins;
+}
+
+.navbar{
+    background: var(--nav-color);
+}
+
+
+
+/*--- .COURSE-LEARN-page-heading-sec-start ---*/
+
+
+.course-enroll-page-heading-sec{
+    padding-top: 200px;
+    padding-bottom: 100px;
+    background: rgb(249, 249, 249);
+}
+
+
+/*--- .COURSE-LEARN-page-heading-sec-end ---*/
+
+
+
+
+
+
+
+/* learn-course-top-nav-start */
+
+.learn-course-nav-main{
+    width: 100%;
+    background: var(--nav-color);
+}
+
+.learn-course-nav-main .learn-course-nav-inner{
+    display: flex;
+    align-items: center;
+    margin: 14px 0px;
+}
+
+.learn-course-nav-main .learn-course-nav-inner
+.learn-course-nav-logo{
+    border-right: 2px solid rgba(255, 255, 255, 0.411);
+    padding: 0px 20px;
+}
+
+.learn-course-nav-main .learn-course-nav-inner img{
+    width: 125;
+    height: 39px;
+}
+
+.learn-course-nav-main .learn-course-nav-inner h1{
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    margin: 0 0px 5px 20px;
+}
+
+/* learn-course-top-nav-start */
+
+
+
+
+
+
+
+
+/* COURSE-LEARN-MAIN-ALL */
+
+.course-learn-main-all{
+    margin: 10px 0px;
+}
+
+/* course-learn-left-inner-start */
+
+
+.course-learn-left-inner .youtube-for-pad{
+    padding: 0;
+}
+
+.course-learn-left-inner{
+    border: 1px solid rgb(238, 238, 238);
+    border-radius: 5px;
+    box-shadow: 0px 10px 40px #e8e8e8;
+}
+
+.course-learn-left-inner .uk-subnav{
+    background-color: #f3f3f3;
+    margin-top: 40px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.course-learn-left-inner .uk-subnav-pill>.uk-active>a {
+    background-color: #404040;
+    /* background-image: linear-gradient(to right, rgb(0, 13, 255) 0%, rgb(76, 17, 203) 100%); */
+    color: #fff;
+    border-radius: 3px;
+}
+
+.course-learn-left-inner .uk-subnav li a {
+    font-size: 15px;
+    font-weight: 500;
+    text-transform: capitalize;
+    font-family: poppins;
+}
+
+
+/* course-learn-left-inner-end */
+
+
+
+
+
+/* course-learn-right-inner-start */
+
+.course-learn-right-inner{
+    padding: 20px;
+    border: 1px solid rgb(238, 238, 238);
+    border-radius: 5px;
+    box-shadow: 0px 10px 40px #e8e8e8;
+}
+
+.course-learn-right-inner .uk-accordion-title{
+    font-size: 16px;
+    font-weight: 600;
+    background: #f0f0f0;
+    padding: 15px 10px;
+}
+
+
+/* course-learn-cur-content */
+
+
+.course-learn-right-inner .course-learn-cur-content{
+    display: flex;
+    padding: 8px 0px
+}
+
+.course-learn-right-inner .course-learn-cur-content
+.cou-learn-cur-content-p1{
+    padding: ;
+}
+
+.course-learn-right-inner .course-learn-cur-content
+.cou-learn-cur-content-p1 a{
+    font-size: 15px;
+    text-decoration: none;
+    color: #444444;
+}
+
+.course-learn-right-inner .course-learn-cur-content
+.cou-learn-cur-content-p1 a:hover{
+    font-size: 15px;
+    text-decoration: none;
+    color: #000000;
+}
+
+.course-learn-right-inner .course-learn-cur-content
+.cou-learn-cur-content-p1 p{
+   margin: 0;
+}
+
+
+
+
+/* .cou-learn-cur-content-icon */
+
+
+.course-learn-right-inner .cou-learn-cur-content-icon{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0;
+}
+
+.course-learn-right-inner .cou-learn-cur-content-icon p{
+    font-size: 13px;
+    margin: 0;
+}
+
+.course-learn-right-inner .cou-learn-cur-content-icon span{
+    margin: 0px 6px;
+    width: 13px ;
+    height: 13px;
+}
+
+
+
+/* second-switch-q-and-a */
+
+/* cou-learn-q-and-a-questions */
+
+
+
+.second-switch-q-and-a 
+.cou-learn-q-and-a-questions{
+    margin-top: 60px;
+    border-bottom: 1px solid rgba(92, 92, 123, 0.301);
+}
+
+.second-switch-q-and-a 
+.cou-learn-q-and-a-questions img{
+    width: 45px;
+    height: 45px;
+}
+
+.second-switch-q-and-a 
+.cou-learn-q-and-a-questions
+.cou-learn-q-and-a-questions-user{
+    margin-left: 15px;
+}
+
+.second-switch-q-and-a 
+.cou-learn-q-and-a-questions
+.cou-learn-q-and-a-questions-image
+{
+    display: flex;
+}
+
+.second-switch-q-and-a 
+.cou-learn-q-and-a-questions
+.cou-learn-q-and-a-questions-h2
+{
+    font-size: 17px;
+    font-weight: 500;
+    font-family: poppins;
+}
+
+.second-switch-q-and-a 
+.cou-learn-q-and-a-questions
+.cou-learn-q-and-a-questions-h1{
+    font-size: 19px;
+    font-family: poppins;
+    font-weight: 600;
+    margin-right: 10px;
+}
+
+.second-switch-q-and-a 
+.cou-learn-q-and-a-questions
+.cou-learn-q-and-a-questions-p1
+{
+    font-size: 12px;
+    display: inline-block;
+    font-weight: 500;
+}
+
+.second-switch-q-and-a 
+.cou-learn-q-and-a-questions
+.cou-learn-q-and-a-questions-p2{
+    font-size: 15px;
+}
+
+.second-switch-q-and-a 
+.cou-learn-q-and-a-questions
+.cou-learn-q-and-a-questions-p3{
+    font-size: 12px;
+    display: inline-block;
+    margin-left: 7px;
+}
+
+
+/* cou-learn-q-and-a-reply-quantity-heading */
+
+.cou-learn-q-and-a-reply-quantity-heading{
+    margin: 30px 0px 20px 0px;
+}
+
+.cou-learn-q-and-a-reply-quantity-heading h1{
+    font-size: 18px;
+    font-family: poppins;
+    font-weight: 600;
+}
+
+
+/* cou-learn-q-and-a-reply */
+
+
+.second-switch-q-and-a 
+.cou-learn-q-and-a-reply{
+    padding-top: 10px;
+    border-bottom: 1px solid rgba(92, 92, 123, 0.151);
+    border-top: 1px solid rgba(92, 92, 123, 0.151);
+}
+
+.second-switch-q-and-a 
+.cou-learn-q-and-a-reply img{
+    width: 45px;
+    height: 45px;
+}
+
+.second-switch-q-and-a 
+.cou-learn-q-and-a-reply
+.cou-learn-q-and-a-reply-user{
+    margin-left: 15px;
+}
+
+.second-switch-q-and-a 
+.cou-learn-q-and-a-reply
+.cou-learn-q-and-a-reply-image
+{
+    display: flex;
+    padding-top: 20px;
+}
+
+.second-switch-q-and-a 
+.cou-learn-q-and-a-reply
+.cou-learn-q-and-a-reply-h2
+{
+    font-size: 17px;
+    font-weight: 500;
+    font-family: poppins;
+}
+
+.second-switch-q-and-a 
+.cou-learn-q-and-a-reply
+.cou-learn-q-and-a-reply-p1
+{
+    font-size: 12px;
+}
+
+.second-switch-q-and-a 
+.cou-learn-q-and-a-replys
+.cou-learn-q-and-a-reply-h1{
+    font-size: 19px;
+    font-family: poppins;
+    font-weight: 600;
+    margin-right: 10px;
+}
+
+.second-switch-q-and-a 
+.cou-learn-q-and-a-reply
+.cou-learn-q-and-a-reply-p2{
+    font-size: 15px;
+    display: inline-block;
+}
+
+.second-switch-q-and-a 
+.cou-learn-q-and-a-reply
+.input1{
+    font-size: 15px;
+    color: rgb(83, 83, 83);
+    /* font-weight: 500; */
+    width: 70%;
+    margin: 10px 0px 30px 0px;
+    padding: 10px 20px;
+    border: 1px solid rgba(92, 92, 123, 0.301);
+    border-radius: 30px;
+    outline: none;
+    display: inline-block;
+}
+
+.second-switch-q-and-a 
+.cou-learn-q-and-a-reply
+.input2{
+    width: 20%;
+    padding: 12px 0px;
+    color: white;
+    background: var(--secondary-btn-color);
+    border-radius: 30px;
+    border: none;
+    transition: .5s;
+    display: inline-block;
+}
+
+.second-switch-q-and-a 
+.cou-learn-q-and-a-reply
+.input2:hover{
+    background: var(--primary-btn-color);
+}
+
+
+
+
+/* cou-learn-q-and-a-comment-box */
+
+.cou-learn-q-and-a-comment-box{
+    padding: 20px;
+    margin: 50px 0px;
+    border: 1px solid rgb(238, 238, 238);
+    border-radius: 5px;
+    box-shadow: 0px 10px 40px #e8e8e8;
+}
+
+.second-switch-q-and-a .cou-learn-q-and-a-title h1,
+.second-switch-q-and-a  .cou-learn-q-and-a-des h1{
+    font-size: 18px;
+    font-family: poppins;
+    font-weight: 600;
+}
+
+.second-switch-q-and-a .cou-learn-q-and-a-title input,
+.second-switch-q-and-a  .cou-learn-q-and-a-des textarea{ 
+    font-size: 15px;
+    color: rgb(83, 83, 83);
+    /* font-weight: 500; */
+    width: 100%;
+    margin: 10px 0px 0px 0px;
+    padding: 10px 20px;
+    border: 1px solid rgba(92, 92, 123, 0.301);
+    border-radius: 30px;
+    outline: none;
+}
+
+.second-switch-q-and-a  .cou-learn-q-and-a-des textarea{ 
+    border-radius: 10px;
+}
+
+.second-switch-q-and-a .cou-learn-q-and-a-des{
+    margin: 30px 0px;
+}
+
+.second-switch-q-and-a  .cou-learn-q-and-a-des input{
+    height: 0px;
+}
+
+.second-switch-q-and-a .cou-learn-q-and-a-pub-btn input{
+    width: 100%;
+    padding: 12px 0px;
+    color: white;
+    background: var(--secondary-btn-color);
+    border-radius: 30px;
+    border: none;
+    transition: .5s;
+}
+
+.second-switch-q-and-a .cou-learn-q-and-a-pub-btn input:hover{
+    background: var(--primary-btn-color);
+}
+
+

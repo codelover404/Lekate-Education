@@ -1,0 +1,188 @@
+
+
+nav{
+    background-image: var(--nav-color); 
+    /* background:rgba(255, 255, 255, 0);   */
+}
+
+.my-course-page-heading{
+    padding-top: 150px;
+    padding-bottom: 50px;
+    background: rgb(243, 243, 243);
+  }
+
+
+  /* switch-with-mycou-main-start */
+
+.switch-with-mycou-main{
+    margin: 50px 0px;
+}
+
+.switch-with-mycou-main .uk-subnav {
+    width: 94%;
+    margin: 0 auto;
+    padding: 10px 0px;
+    /* background: #f0f0f0; */
+    /* border-radius: 5px; */
+    border-bottom: 2px solid rgb(243, 243, 243);
+}
+
+
+.switch-with-mycou-main .uk-subnav-pill>.uk-active>a {
+    background-color: #404040;
+    color: #fff;
+    border-radius: 3px;
+}
+
+  /* switch-with-mycou-main-end */
+
+
+
+
+
+  /* my-course-sec-start */
+
+
+.my-courses-main .my-course-sec{
+    border: 1px solid rgb(238, 238, 238);
+    border-radius: 5px;
+    box-shadow: 0px 10px 40px #e8e8e8;
+}
+
+.my-course-sec a{
+    text-decoration: none;
+}
+
+.my-courses-main .my-course-sec
+.my-course-image{
+    position: relative;
+}
+
+.my-courses-main .my-course-sec
+.mycou-more-icon{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.my-courses-main .my-course-sec
+.mycou-more-icon i{
+    /* width: 10px;
+    height: 10px; */
+    padding: 5px 10px;
+    margin: 10px;
+    color: rgb(27, 27, 27);
+    background: rgb(243, 243, 243);
+    border-radius: 50px;
+    box-shadow: 0px 10px 40px #e8e8e8;
+    cursor: pointer;
+}
+
+
+
+/* mycou-more-dropdown-start */
+
+.my-courses-main .my-course-sec
+.mycou-more-dropdown {
+    position: absolute;
+    right: 25px;
+    top: 50px;
+    padding: 10px 0px;
+    text-align: left;
+    background: #ffffff;
+    box-shadow: 0px 0px 20px rgb(128, 128, 128);
+    display: none;
+}
+
+.my-courses-main .my-course-sec
+.mycou-more-dropdown ul{
+    padding: 0;
+    list-style: none;
+  }
+  
+  .my-courses-main .my-course-sec
+  .mycou-more-dropdown ul li{
+    padding: 5px 15px;
+    transition: .3s;
+  }
+  
+  .my-courses-main .my-course-sec
+  .mycou-more-dropdown ul li:hover{
+    background: #F3F3F3;
+  }
+  
+  .my-courses-main .my-course-sec
+  .mycou-more-dropdown ul li a{
+    font-size: 13px;
+    text-decoration: none;
+    font-family: poppins;
+    color: #4f4f4f;
+  }
+
+  .my-courses-main .my-course-sec
+  .mycou-more-dropdown ul li img{
+    width: 13px;
+    margin: 0px 10px 0px 0px;
+  }
+
+
+/* mycou-more-dropdown-end */
+
+
+.my-course-sec .mycou-content{
+    padding: 20px;
+}
+
+.my-course-sec .mycou-content 
+.mycou-category-hea{
+    color: #4f4f4f;
+    /* display: flex; */
+    justify-content: space-between;
+}
+
+.my-course-sec .mycou-content 
+.mycou-category-hea .mycou-category-hea1{
+    font-size: 13px;
+    font-weight: 600;
+    margin: 0;
+}
+
+.my-course-sec .mycou-content 
+.mycou-category-hea .mycou-category-hea2{
+    font-size: 13px;
+    
+}
+
+.my-course-sec .mycou-content 
+.mycou-name a{
+    text-decoration: none;
+}
+  
+
+.my-course-sec .mycou-content 
+.mycou-name h1{
+    font-size: 18px;
+    font-family: poppins;
+    font-weight: 700;
+}
+
+.my-course-sec .mycou-content 
+.progress{
+    margin: 20px 0px 0px 0px ;
+    border-radius: 50px;
+    background: rgb(221, 221, 221);
+}
+
+.my-course-sec .mycou-content 
+.progress-bar{
+    font-size: 10px;
+    background: var(--secondary-btn-color);
+}
+    
+
+
+
+    
+
+
+/* my-course-sec-end */

@@ -1,0 +1,164 @@
+
+*{
+    font-family: poppins;
+}
+
+nav{
+    background-image: var(--nav-color); 
+    /* background:rgba(255, 255, 255, 0);   */
+}
+
+
+/*--- Cart-page-heading-sec-start ---*/
+
+
+.cart-page-heading-sec{
+    padding-top: 100px;
+    padding-bottom: 50px;
+    background: rgb(243, 243, 243);
+}
+
+
+/*--- Cart-page-heading-sec-end ---*/
+
+
+
+/*-------------- Cart-all-main-start ----------------*/
+
+
+.cart-main-all{
+    margin: 50px 0px;
+}
+
+.cart-left-inner .cart-quantity-main .cart-quantity-h1{
+    font-size: 20px;
+    font-family: poppins;
+}
+
+.cart-left-inner .cart-course-main{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 10px 0px;
+    padding: 20px 20px;
+    border: 1px solid rgb(238, 238, 238);
+    border-radius: 5px;
+    box-shadow: 0px 10px 40px #e8e8e8;
+}
+
+.cart-left-inner .cart-course-main .cart-course-content{ 
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+
+.cart-left-inner .cart-course-image{
+    display: inline-block;
+    align-items: center;
+    padding: 0;
+}
+
+.cart-left-inner .cart-course-main img{
+    border-radius: 121px;
+    width: 50px;
+    height: 50px;
+}
+
+.cart-left-inner .cart-course-main
+.cart-course-content-h1{
+    font-size: 20px;
+    font-family: poppins;
+    font-weight: 700;
+}
+
+.cart-left-inner .cart-course-main
+.cart-course-content-h2{
+    font-size: 20px;
+    font-family: poppins;
+    font-weight: 700;
+    text-align: right;
+}
+
+
+/*--- cart-right ---*/
+
+.cart-right-inner{
+    border: 1px solid rgb(238, 238, 238);
+    border-radius: 5px;
+    box-shadow: 0px 10px 40px #e8e8e8;
+    margin: 33px 0px;
+    padding: 20px;
+}
+
+.cart-right-inner .cart-total-price{
+    display: flex;
+    justify-content: space-between;
+}
+
+.cart-right-inner .cart-total-price .cart-total-price-h1{
+    font-size: 20px;
+    font-family: poppins;
+}
+
+.cart-right-inner .cart-total-price .cart-total-price-h2{
+    font-size: 20px;
+    font-family: poppins;
+    font-weight: 700;
+}
+
+.cart-right-inner .cart-right-checkout-sec{
+    margin: 10px 0px;
+}
+
+.cart-right-inner .cart-right-coupon{
+    margin: 20px 0px;
+}
+
+.cart-right-inner .cart-right-coupon input{
+    width: 100%;
+    position: relative;
+    color: rgb(83, 83, 83);
+    padding: 3px 10px;
+    border-radius: 30px;
+    border: 1px solid rgba(92, 92, 123, 0.301);
+}
+
+.cart-right-inner .cart-right-coupon input::placeholder{
+    font-size: 15px;
+}
+
+.cart-right-inner .cart-right-coupon button{
+    font-family: poppins;
+    font-size: 13px;
+    position: absolute;
+    right: 15px;
+    height: 100%;
+    padding: 0px 10px;
+    color: white;
+    background-color: var(--primary-btn-color);
+    border: none;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    transition: .5s;
+}
+
+.cart-right-inner .cart-right-checkout-sec
+.cart-right-checkout-btn{
+    width: 100%;
+    padding: 12px 0px;
+    color: white;
+    background: var(--secondary-btn-color);
+    border: none;
+    border-radius: 30px;
+    transition: .5s;
+}
+
+.cart-right-inner .cart-right-checkout-sec
+.cart-right-checkout-btn:hover{
+    background: var(--primary-btn-color);
+
+}
+
+
+/*-------------- Cart-all-main-end ----------------*/

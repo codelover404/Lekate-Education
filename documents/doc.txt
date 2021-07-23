@@ -1,0 +1,5 @@
+home-1...   features course only 1st and 2nd subsection switch style ,partner section
+
+home-5...   3rd, 4th , 5th, 7th sections > slider, feature course, Why Study with lekte? , Find the right learning, Featured Instructors
+
+home-6...   2nd > We are lekate

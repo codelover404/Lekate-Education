@@ -1,0 +1,807 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" href="images/L.png" sizes="any" type="image/png">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.6.5/dist/css/uikit.min.css" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.0.0/mdb.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <link rel="stylesheet" href="css/owl.carousel.min.css">
+  <link rel="stylesheet" href="css/owl.theme.default.min.css">
+  <link href="https://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="css/carousel-style.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/about-page.css">
+  <link rel="stylesheet" href="css/responsive-css/mobile.css">
+
+
+
+  <title>Lekate</title>
+</head>
+
+<body>
+
+
+  <!-- navbar-start -->
+
+  <div class="container-fluid">
+    <div class="row">
+      <nav>
+        <div class="navbar-custom">
+          <ul class="nav-ul">
+            <li class="logo"><a href="index.html"><img src="images/logo2.png" alt=""></a></li>
+            <li class="items"><a class="uk-button-text" aria-current="page" href="#">Home</a> </li>
+            <li class="items course-li">
+              <a class="uk-button-text" href="#">Courses<i class="fas fa-chevron-down"></i></a>
+              <ul class="course-dropdown-ul">
+                <li><a href="courses-page.html">Software Development</a></li>
+                <li><a href="courses-page.html">Website Development</a></li>
+                <li><a href="courses-page.html">AI & Machine Learning</a></li>
+                <li><a href="courses-page.html">Ethical Hacking</a></li>
+              </ul>
+            </li>
+            <li class="items"><a class="uk-button-text" href="our-team.html">Our Team</a> </li>
+            <li class="items"><a class="uk-button-text" href="about-page.html">About</a> </li>
+            <li class="items"><a class="uk-button-text" href="contact-page.html">Contact</a> </li>
+            <li class="items search-bar-nav-li">
+              <div class="search-bar-nav1">
+                <span class="search-bar-nav1-icon lpiic-1" uk-icon="search"></span>
+                <input type="email" placeholder="What you want to learn ">
+              </div>
+            </li>
+            <li class="items nav-cart-icon-li" data-bs-toggle="modal" data-bs-target="#exampleModal">
+              <img src="images/cart-icons/insurance (2).png" alt="">
+            </li>
+            <li class="items user-pic-div-li">
+              <div class="loader"></div>
+              <img class="user-pic" src="images/user-pic.jpg" alt="">
+            </li>
+            <div class="user-account-main">
+              <ul>
+                <li class="user-and-email"><a class="user-name" href="my-account.html">John Doe</a>
+                  <a class="user-email" href="my-account.html">doejohn@gmail.com</a>
+                </li>
+                <li><a href="my-courses-page.html"><img src="images/user-account/presentation.png">My
+                    courses</a></li>
+                <li><a href="my-account.html"><img src="images/user-account/google.png">Account</a></li>
+                <li><a href="signup-page.html"><img src="images/user-account/follow.png">Create another
+                    account</a></li>
+                <li><a href="#"><img src="images/user-account/arrow.png">Logout</a></li>
+              </ul>
+            </div>
+            <li class="menu-btn"><img class="menu-icon" src="images/download.png" alt=""></a></li>
+          </ul>
+
+        </div>
+      </nav>
+
+    </div>
+  </div>
+
+
+
+  <!------- navbar-end -------->
+
+
+
+
+  <!-- Modal checkout-start -->
+
+
+  <div class="checkout-modal">
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header first-modal-border">
+            <h5 class="modal-title" id="exampleModalLabel">Your Cart</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <div class="col-md-12 modal-inner-for-pad">
+              <div class="checkout-modal-items-main">
+                <div class="col-md-12">
+                  <div class="checkout-modal-item">
+                    <div class="checkout-modal-item-img">
+                      <img src="images/more-course/CVz5X5tVEAA0lIU.png" alt="">
+                    </div>
+                    <div class="checkout-modal-item-content">
+                      <a href="course-enroll-page.html">
+                        <h1 class="checkout-modal-item-h1">Website Development</h1>
+                      </a>
+                      </a>
+                      <p class="checkout-modal-item-p1">3.85$</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-12">
+                  <div class="checkout-modal-item">
+                    <div class="checkout-modal-item-img">
+                      <img
+                        src="images/more-course/ai-artificial-intelligence-logo-hands-artificial-intelligence-machine-learning-concept-sphere-grid-wave-with-binary-code_127544-18.jpg"
+                        alt="">
+                    </div>
+                    <div class="checkout-modal-item-content">
+                      <a href="course-enroll-page.html">
+                        <h1 class="checkout-modal-item-h1">AI & Machine Learning</h1>
+                      </a>
+                      <p class="checkout-modal-item-p1">7.68$</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="modal-footer chekout-modal-btn">
+            <div class="chekout-modal-total col-md-12">
+              <h1 class="chekout-modal-h1">Total</h1>
+              <h1 class="chekout-modal-price">30$</h1>
+            </div>
+            <a href="cart-page.html">
+              <button type="button">Checkout</button>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Modal checkout-end -->
+
+
+
+  <!------- about-heading-start ----->
+
+
+  <div class="container-fluid about-page-heading-sec">
+    <div class="about-page-outer">
+      <div class="container">
+        <div class="about-page-inner">
+          <div class="col-md-8 d-flex offset-md-2 justify-content-center text-center">
+            <div class="course-page-content justify-content-center text-center">
+              <h1 class="sub-h1">About</h1>
+              <p class="sub-p1 col-md-12 mt-4 mb-0">Home / About</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+  <!------- about-heading-end ----->
+
+
+
+  <!------ aboutpage-section-2-start ------>
+
+  <div class="aboutpage-main">
+    <div class="container">
+      <div class="aboutpage-outer">
+        <div class="row">
+
+          <div class="col-md-5">
+            <h1 class="we-are-h1 wow bounceInUp animate__animated animate__fadeInUp">Our goal is to make online
+              education work for everyone.
+            </h1>
+            <p class="we-are-p1">
+              We don’t have all the answers today, but we believe that by assembling a that comes from different
+              professional, personal and educational backgrounds, together we will figure it out.
+            </p>
+          </div>
+
+          <div class="col-md-7 text-right">
+            <div class="aboutpage-rightimage">
+              <img src="images/team-images/EDU_767x431_PPTscreen.jpg" alt="">
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+  <!------ aboutpage-section-2-end------>
+
+
+
+
+
+
+
+
+
+
+  <!------ aboutpage-section-3-start ------>
+
+
+  <div class="aboutpage-sec3-main">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-5">
+          <p class="sub-p1 col-md-12 mt-4 mb-0">#Benefits</p>
+          <h1 class="aboutpage-sec3-h1">Here's what we Believe in</h1>
+        </div>
+        <div class="col-md-5 aboutpage-sec3-sec2">
+          <p class="aboutpage-sec3-p1">Discover how to anticipate and adapt to the latest trends and digital</p>
+        </div>
+      </div>
+
+      <div class="row aboutpage-sec3-fea-mt aboutpage-sec3-fea">
+
+        <div class="col-md-4">
+          <div class="abpage-sec3-fea-inner">
+            <img src="images/ab-icon-1.png" alt="">
+            <h1 class="abpage-fea-h1">Leadership</h1>
+            <p class="aboutpage-sec3-p2">Our leaders demonstrate integrity, honesty and openness. Guided by our values.
+            </p>
+          </div>
+        </div>
+
+
+        <div class="col-md-4">
+          <div class="abpage-sec3-fea-inner">
+            <img src="images/ab-icon-2.png" alt="">
+            <h1 class="abpage-fea-h1">Empowerment</h1>
+            <p class="aboutpage-sec3-p2">Our leaders demonstrate integrity, honesty and openness. Guided by our values.
+            </p>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="abpage-sec3-fea-inner">
+            <img src="images/ab-icon-3.png" alt="">
+            <h1 class="abpage-fea-h1">Social Impact</h1>
+            <p class="aboutpage-sec3-p2">Our leaders demonstrate integrity, honesty and openness. Guided by our values.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="row aboutpage-sec3-fea-mtt aboutpage-sec3-fea">
+
+        <div class="col-md-4">
+          <div class="abpage-sec3-fea-inner">
+            <img src="images/ab-icon-3.png" alt="">
+            <h1 class="abpage-fea-h1">Betterment</h1>
+            <p class="aboutpage-sec3-p2">Our leaders demonstrate integrity, honesty and openness. Guided by our values.
+            </p>
+          </div>
+        </div>
+
+
+        <div class="col-md-4">
+          <div class="abpage-sec3-fea-inner">
+            <img src="images/ab-icon-4.png" alt="">
+            <h1 class="abpage-fea-h1">Deep Honesty</h1>
+            <p class="aboutpage-sec3-p2">Our leaders demonstrate integrity, honesty and openness. Guided by our values.
+            </p>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="abpage-sec3-fea-inner">
+            <img src="images/ab-icon-2.png" alt="">
+            <h1 class="abpage-fea-h1">Solidarity</h1>
+            <p class="aboutpage-sec3-p2">Our leaders demonstrate integrity, honesty and openness. Guided by our values.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+  <!------ aboutpage-section-3-end ------>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <!------ aboutpage-section-4-start ------>
+
+
+
+  <div class="aboutpage-sec4-main">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 d-flex offset-md-2 justify-content-center text-center">
+          <div class="exclusive-content justify-content-center text-center">
+            <h1 class="sub-h1">Built Exclusive For You</h1>
+            <p class="sub-p1 col-md-8 offset-md-2 mt-4 mb-0">Match your goals to our programs, explore your options
+              and map out your path to success.</p>
+            <div class="text-center">
+              <p class="slider-p2 view-course-btn "><a href="#">Explore</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row ab-sec4-video">
+        <div class="col-md-8 offset-md-1">
+          <iframe width="900" height="480" src="https://www.youtube.com/embed/5RluSnRPRbI" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <!------ aboutpage-section-4-end ------>
+
+
+
+
+
+
+
+
+
+  <!------ aboutpage-section-5-start ------>
+
+
+
+
+
+  <div class="aboutpage-sec5-main">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 d-flex offset-md-2 justify-content-center text-center">
+          <div class="client-content justify-content-center text-center">
+            <p class="sub-p1 col-md-8 offset-md-2 mt-4 mb-0">Top Clients</p>
+            <h1 class="sub-h1">We’ve built solutions for.</h1>
+          </div>
+        </div>
+      </div>
+
+      <div class="row clients-row">
+        <div id="owl-demo" class="owl-carousel owl-theme">
+
+          <div class="item" style="background-image: url(images/brand-01.png);">
+
+          </div>
+          <div class="item" style="background-image: url(images/brand-02.png);">
+
+          </div>
+          <div class="item" style="background-image: url(images/brand-03.png);">
+
+          </div>
+
+          <div class="item" style="background-image: url(images/brand-04.png);">
+
+          </div>
+
+          <div class="item" style="background-image: url(images/brand-05.png);">
+
+          </div>
+
+          <div class="item" style="background-image: url(images/brand-06.png);">
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+  <!------ aboutpage-section-5-end ------>
+
+
+
+
+
+
+
+
+
+
+
+
+  <!----------- newsletter-start ---------->
+
+
+  <div class="main-newsletter">
+    <div class="container-fluid">
+      <div class="newsletter-outer">
+        <div class="container">
+          <div class="news-letter-inner">
+            <div class="row d-flex align-items-center">
+              <div class="col-md-6">
+                <div class="news-letter-right">
+                  <p class="news-p1">#Newsletter</p>
+                  <h1 class="news-h1">Join our community of students</h1>
+                </div>
+              </div>
+
+              <div class="col-md-6 ">
+                <div class="news-letter-left">
+                  <div class="input-group newsletter-sec mb-3">
+                    <input type="email" class="form-control" placeholder="Enter your email"
+                      aria-label="Recipient's username" aria-describedby="button-addon2">
+                    <button class="btn btn-outline-secondary" type="button" id="button-addon2">Subscribe
+                      <i class="fas fa-envelope"></i>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!----------- newsletter-end ---------->
+
+
+
+
+  <!----------- last-sec-start ---------->
+
+
+  <div class="last-sec-main">
+    <div class="container-fluid">
+      <div class="last-sec-outer">
+        <div class="container">
+          <div class="last-sec-inner">
+            <div class="row">
+              <div class="col-md-3">
+                <div class="last-sec last-sec-1">
+                  <div class="last-logo">
+                    <img src="images/logo2.png" style="width: 150px;">
+                  </div>
+                  <p class="last-p1">It's crafted with the latest tre to of design & coded with all modern approaches.
+                  </p>
+                  <div class="follow-sec">
+                    <h6 class="follow-h">
+                      Follow on
+                    </h6>
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-3">
+                <div class="last-sec last-sec-2">
+                  <h1 class="last-h1">Courses</h1>
+                  <ul>
+                    <li class="uk-button-text"><a href="#">All</a></li>
+                    <li class="uk-button-text"><a href="#">Software Development</a></li>
+                    <li><a href="#">Website Development</a></li>
+                    <li><a href="#">Website Designing</a></li>
+                    <li><a href="#">AI & Machine learning</a></li>
+                    <li><a href="#">Ethical Hacking</a></li>
+                  </ul>
+                </div>
+              </div>
+
+              <div class="col-md-3">
+                <div class="last-sec last-sec-3">
+                  <h1 class="last-h1">Company</h1>
+                  <ul>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Careers</a></li>
+                    <li><a href="#">Resources</a></li>
+                    <li><a href="#">Guides</a></li>
+                  </ul>
+                </div>
+              </div>
+
+              <div class="col-md-3">
+                <div class="last-sec last-sec-4">
+                  <h1 class="last-h1">Support</h1>
+                  <ul>
+                    <li><a href="#">Help Center</a></li>
+                    <li><a href="#">Contact Support</a></li>
+                    <li><a href="#">Feedback</a></li>
+                    <li><a href="#">Community and Forums</a></li>
+                    <li><a href="#">Terms and Conditions</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div class="row copyright">
+              <div class="col-md-4">
+                <div>
+                  <p class="copyright-p">
+                    All rights reserved by <a href="#">Our Designs</a>
+                  </p>
+                </div>
+              </div>
+
+              <div class="col-md-6 offset-md-2 d-flex">
+                <div class="copyright-links">
+                  <ul>
+                    <li><a href="#">Contact Support</a></li>
+                    <li><a href="#">Terms and Conditions</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <!-- scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.0.0/mdb.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/uikit@3.6.5/dist/js/uikit.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/uikit@3.6.5/dist/js/uikit-icons.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.js"></script>
+  <script src="js/carousel.js"></script>
+  <script src="js/testinomial-script-1.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+
+
+
+
+
+  <!------- home-owl-carousel-script ------->
+
+  <script>
+    $(document).ready(function () {
+      var owl = $('.owl-carousel');
+      owl.owlCarousel({
+        items: 5,
+        loop: true,
+        margin: 0,
+        autoplay: true,
+        autoplayTimeout: 1500,
+        autoplayHoverPause: false
+      });
+      $('.play').on('click', function () {
+        owl.trigger('play.owl.autoplay', [1000])
+      })
+      $('.stop').on('click', function () {
+        owl.trigger('stop.owl.autoplay')
+      })
+    });
+  </script>
+
+
+
+  <!------- about-owl-clients-carousel-script ------->
+
+
+  <script>
+    function myFunction(x) {
+      if (x.matches) { // If media query matches
+        owl.owlCarousel({
+          items: 2,
+          loop: true,
+          margin: 0,
+          autoplay: true,
+          autoplayTimeout: 1500,
+          autoplayHoverPause: false
+        });
+      } else {
+        owl.owlCarousel({
+          items: 5,
+          loop: true,
+          margin: 0,
+          autoplay: true,
+          autoplayTimeout: 1500,
+          autoplayHoverPause: false
+        });
+      }
+    }
+
+    var owl = $('.owl-carousel');
+    var x = window.matchMedia("(max-width: 600px)")
+    myFunction(x) // Call listener function at run time
+    x.addListener(myFunction) // Attach listener function on state changes
+  </script>
+
+
+
+  <!------- home-counter-script ------->
+
+
+  <script>
+    $(document).ready(function () {
+
+      $('.counter').each(function () {
+        $(this).prop('Counter', 0).animate({
+          Counter: $(this).text()
+        }, {
+          duration: 4000,
+          easing: 'swing',
+          step: function (now) {
+            $(this).text(Math.ceil(now));
+          }
+        });
+      });
+    });
+  </script>
+
+
+
+  <!------- wow-page-scroll-animate-script ----->
+
+
+
+  <script src="js/wow.min.js"></script>
+  <script>
+    new WOW().init();
+
+    wow = new WOW(
+      {
+        boxClass: 'wow',      // default
+        animateClass: 'animated', // default
+        offset: 0,          // default
+        mobile: true,       // default
+        live: true        // default
+      }
+    )
+    wow.init();
+  </script>
+
+
+
+  <!-- Change Nav background on Click -->
+
+  <script>
+    $(document).ready(function () {
+      $(".navbar-custom .nav-ul li.menu-btn").click(function () {
+        $("nav").toggleClass("toggle-nav");
+      });
+    });
+  </script>
+
+
+
+
+
+
+  <!-- Change Nav background on Scroll -->
+
+  <!-- <script>
+    $(document).ready(function () {
+      $(window).scroll(function () {
+        var scroll = $(window).scrollTop();
+        if (scroll > 100) {
+          $("nav").css("background-image", "linear-gradient(to right, #000dff  0%, #4c11cb  100%)");
+        }
+
+        else {
+          $("nav").css("background", "rgba(255, 255, 255, 0)");
+        }
+      })
+    })
+  </script> -->
+
+
+
+
+  <!-- navbar-custom .items show/hide -->
+
+  <script>
+    $(document).ready(function () {
+      $('.menu-btn').click(function () {
+        $('.items').toggleClass("show");
+      });
+    });
+  </script>
+
+
+
+  <!-- course-li-dropdown-click -->
+
+  <script>
+    $(document).ready(function () {
+      $(".navbar-custom .nav-ul .course-li").click(function () {
+        $(".navbar-custom .nav-ul .course-li .course-dropdown-ul").fadeToggle();
+      });
+    });
+  </script>
+
+
+  <!-- user-account-main -->
+
+  <script>
+    $(document).ready(function () {
+      $(".navbar-custom .user-pic-div-li").click(function () {
+        $(".navbar-custom .user-account-main").fadeToggle();
+      });
+    });
+</script>
+
+
+</body>
+
+</html>
